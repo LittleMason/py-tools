@@ -19,8 +19,9 @@ class RandomUserAgentMiddlware(object):
         request.headers.setdefault('User-Agent', get_ua())
 #更换随机ip
 class RandomIPMiddleware:
-    def __init__(self,url):
-        self.url = url #第三方获取ip接口
+    isPrint=True
+    url=""
+    def __init__(self):
         self.agentIP = self.get_ip()
     def get_ip(self):
         res = requests.get(self.url)
@@ -30,5 +31,6 @@ class RandomIPMiddleware:
         return randomIP
 
     def process_request(self,request,spider):
-        print(self.agentIP)
+        if self.isPrint:
+            print(self.agentIP)
         request.meta['proxy'] = 'http://' + self.agentIP

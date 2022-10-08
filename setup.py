@@ -13,7 +13,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "manjutools",
-    version = "0.0.6",
+    version = "0.0.7",
     keywords = ("agent","unitl", "format", "path"),
     description = "collect some commons methods",
     long_description = "collect some commons methods",
