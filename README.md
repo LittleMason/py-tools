@@ -2,5 +2,5 @@
 collect some commons methods
 # build
 python setup.py sdist build
-#upload
+# upload
 twine upload dist/*
