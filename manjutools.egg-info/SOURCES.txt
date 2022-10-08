@@ -1,0 +1,10 @@
+README.md
+setup.py
+manju_tools/__init__.py
+manju_tools/agent.py
+manjutools.egg-info/PKG-INFO
+manjutools.egg-info/SOURCES.txt
+manjutools.egg-info/dependency_links.txt
+manjutools.egg-info/requires.txt
+manjutools.egg-info/top_level.txt
+test/test.py

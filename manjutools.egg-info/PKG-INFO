@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: manjutools
+Version: 0.0.6
+Summary: collect some commons methods
+Home-page: https://github.com/haimalairen/py-tools
+Author: mushaoyu
+Author-email: 407703712@qq.com
+License: MIT Licence
+Description: collect some commons methods
+Keywords: agent,unitl,format,path
+Platform: any
